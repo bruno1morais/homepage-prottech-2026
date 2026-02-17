@@ -30,6 +30,21 @@ const App: React.FC = () => {
           <Contact />
         </main>
         <Footer />
+        {/* Botão WhatsApp */}
+        <a
+          href="https://wa.me/5563999686766?text=Olá,%20vim%20pelo%20site%20da%20Prottech"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="fixed bottom-6 right-6 z-[999] hover:scale-105 transition-transform duration-300"
+        >
+          <img
+            src="/whatsapp.png"
+            alt="Chat no WhatsApp"
+            className="w-48 md:w-64"
+          />
+        </a>
+
+
       </div>
     </div>
   );

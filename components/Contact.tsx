@@ -37,7 +37,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <div className="text-sm font-bold text-slate-500 uppercase tracking-widest">Email</div>
-                    <div className="text-lg font-medium text-white">contato@prottech.com.br</div>
+                    <div className="text-lg font-medium text-white">prottech@icloud.com</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-6 group">
@@ -46,13 +46,13 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <div className="text-sm font-bold text-slate-500 uppercase tracking-widest">WhatsApp</div>
-                    <div className="text-lg font-medium text-white">+55 11 98765-4321</div>
+                    <div className="text-lg font-medium text-white">+55 63 99968-6766</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="glass p-10 rounded-[3rem] border border-white/10 shadow-2xl relative">
+            {/* <div className="glass p-10 rounded-[3rem] border border-white/10 shadow-2xl relative">
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="space-y-2">
@@ -107,7 +107,7 @@ const Contact: React.FC = () => {
                   Enviar Mensagem
                 </button>
               </form>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

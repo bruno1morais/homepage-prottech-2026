@@ -34,7 +34,11 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
         <a href="#" className="flex items-center gap-2 group">
           <div className="relative">
-            <LogoIcon className="h-9 w-9 text-blue-500 transition-transform group-hover:scale-110" />
+            <img
+              src="/logo_prottech_fundo_transparente.png"
+              alt="Prottech Logo"
+              className="h-14 w-14 transition-transform group-hover:scale-110"
+            />
             <div className="absolute inset-0 bg-blue-500 blur-lg opacity-20 group-hover:opacity-40 transition-opacity"></div>
           </div>
           <span className="text-2xl font-extrabold tracking-tight text-white">
