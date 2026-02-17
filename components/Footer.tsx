@@ -20,13 +20,13 @@ const Footer: React.FC = () => {
               Garantindo segurança e performance para empresas que não param de crescer.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-12 h-12 flex items-center justify-center bg-slate-900 rounded-xl text-slate-400 hover:bg-blue-600 hover:text-white transition-all shadow-lg">
+              <a href="https://www.linkedin.com/in/bruno-1morais/" className="w-12 h-12 flex items-center justify-center bg-slate-900 rounded-xl text-slate-400 hover:bg-blue-600 hover:text-white transition-all shadow-lg">
                 <LinkedInIcon className="w-6 h-6" />
               </a>
-              <a href="#" className="w-12 h-12 flex items-center justify-center bg-slate-900 rounded-xl text-slate-400 hover:bg-green-600 hover:text-white transition-all shadow-lg">
+              <a href="https://wa.me/5563999686766?text=Olá,%20vim%20pelo%20site%20da%20Prottech" className="w-12 h-12 flex items-center justify-center bg-slate-900 rounded-xl text-slate-400 hover:bg-green-600 hover:text-white transition-all shadow-lg">
                 <WhatsAppIcon className="w-6 h-6" />
               </a>
-              <a href="#" className="w-12 h-12 flex items-center justify-center bg-slate-900 rounded-xl text-slate-400 hover:bg-white hover:text-slate-900 transition-all shadow-lg">
+              <a href="https://bruno.1moraisbezerra@gmail.com/" className="w-12 h-12 flex items-center justify-center bg-slate-900 rounded-xl text-slate-400 hover:bg-white hover:text-slate-900 transition-all shadow-lg">
                 <EmailIcon className="w-6 h-6" />
               </a>
             </div>
@@ -54,7 +54,7 @@ const Footer: React.FC = () => {
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-slate-600 text-sm">
-            &copy; {currentYear} Prottech Soluções em Tecnologia. Todos os direitos reservados.
+            &copy; {currentYear} Prottech Soluções em Tecnologia. Todos os direitos reservados. CNPJ: 44.970.120/0001-97
           </p>
           <div className="flex items-center gap-2 text-xs text-slate-600 font-bold uppercase tracking-widest">
             <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
